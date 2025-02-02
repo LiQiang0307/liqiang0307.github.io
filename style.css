@@ -15,6 +15,16 @@ body {
     margin: 0;
 }
 
+#lq {
+    width: 150px; /* 设置图像的宽度为 100 像素 */
+    float: right; /* 向右对齐图像 */
+}
+#homeindex {
+    text-decoration: none; /* 去除下划线 */
+}
+#homeindex:hover {color: #00f; }
+
+
 article,
 aside,
 details,
@@ -4835,7 +4845,7 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .ace-card-on .ace-container-shift {
-        margin-left: 288px;
+        /*margin-left: 288px;*/
     }
 
     .ace-card-on .ace-paper-cont {
